@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.13.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                             Vào cửa hàng trên ứng dụng
+                             <div class="header__qr">
+                                 <img src="./assets/img/qrcode.png" alt="QR code" class="header__qr-img">
+                                 <div class="header__qr-apps"> 
+                                     <a href="" class="header__qr-link">
+                                        <img src="./assets/img/google_play.png" alt="google play" class="header__qr-download-img">
+                                     </a> 
+                                     <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png" alt="app store" class="header__qr-download-img">
+
+                                     </a>
+                                    
+                                 </div>
+                            
+                             </div>
+
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-tittle--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+    
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>
+                                SUMMER SEASON 
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>What's news ?</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link"> 
+                                            <img src="/assets/img/now.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">NEEDS OF WISDOM</span>
+                                                <span class="header__notify-description">VINTAGE SAIGON</span>
+                                            </div>
+                                        </a>
+                                    </li> 
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link"> 
+                                            <img src="/assets/img/now1.png" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">INSIDE THE HOUSE</span>
+                                                <span class="header__notify-description">NOW GARDEN</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link"> 
+                                            <img src="/assets/img/now2.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">GIFTS FOR MEN</span>
+                                                <span class="header__notify-description">JEWELRY & WATCHES</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link"> 
+                                            <img src="/assets/img/now.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">STORIES</span>
+                                                <span class="header__notify-description">FASHION SHOWS</span>
+                                            </div>
+                                        </a>
+                                    </li> 
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link"> 
+                                            <img src="/assets/img/now.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">DÉCOR</span>
+                                                <span class="header__notify-description">DRESSING SPACES</span>
+                                            </div>
+                                        </a>
+                                    </li> 
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link"> 
+                                            <img src="/assets/img/now.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">SHOES</span>
+                                                <span class="header__notify-description">NEW THIS SEASON</span>
+                                            </div>
+                                        </a>
+                                    </li> 
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Click to view all</a>
+                                </footer>
+
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-question-circle"></i>
+                                Trợ giúp</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
+                    </ul>
+    
+                </nav>
+
+                <!-- header-with-search -->
+
+                <div class="header-with-search">
+                    <div class="header__logo">
+                       <a href="/" class="header__logo-link">
+                        <img src="/assets/img/logonow1.jpg" alt="" class="header__logo-img">
+                       </a>
+                    </div>
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm...">
+                            <!-- search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Áo thun</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Quần jeans</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong Shop</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+
+                    <!-- cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <div class="header__cart-list header__cart-list--no-cart">
+                                <img src="./assets/img/no-cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+            </div>
+        </header>
+
+
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fas fa-list"></i>
+                                Danh Mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">TOPS</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">OUTERWEARS</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">BAGS</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+    
+    
+    
+                    
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp Xếp Theo</span>
+                            <button class="home-filter__btn btn">Phổ Biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới Nhất</button>
+                            <button class="home-filter__btn btn">Bán Chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+
+                                <!-- List option  -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Thấp đến cao</a>
+                                       
+                                    </li>
+                                    <li class="select-input__item">
+                                       
+                                        <a href="" class="select-input__link">Giá: Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14
+                                   
+                                </span>
+
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="home-product">
+                            <!-- Grid -> Row -> Column -->
+                            <div class="grid__row">
+                                <!-- product item -->
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <!-- <div class="home-product-item__img" style="background-image: url();"></div> -->
+                                        <img src="./assets/img/HOLOGRAM.jpg" alt="" class="home-product-item__img">
+                                        <h4 class="home-product-item__name">HOLOGRAM NOWSAIGON TEE</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">380.000đ</span>
+                                            <span class="home-product-item__price-current">340.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                
+                                               
+                                                
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+
+                                            </div>
+                                            <!-- <span class="home-product-item__sold">1000 đã bán</span> -->
+
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NOWSAIGON</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent-sold-out">SOLD OUT</span>
+                                            <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4 ">
+                                    <a class="home-product-item" href="#">
+                                        <!-- <div class="home-product-item__img" style="background-image: url();"></div> -->
+                                        <img src="./assets/img/line-wind-den-truoc.jpg" alt="" class="home-product-item__img">
+                                        <h4 class="home-product-item__name">LINE WINDBREAKER JACKET</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">495.000đ</span>
+                                            <span class="home-product-item__price-current">399.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <!-- <span class="home-product-item__sold">1000 đã bán</span> -->
+
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NOWSAIGON</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">-22%</span>
+                                            <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <!-- <div class="home-product-item__img" style="background-image: url();"></div> -->
+                                        <img src="./assets/img/bone-sau-den.jpg" alt="" class="home-product-item__img">
+                                        <h4 class="home-product-item__name ">BONE LOGO TEE</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">333.000đ</span>
+                                            <span class="home-product-item__price-current">299.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <!-- <span class="home-product-item__sold">1000 đã bán</span> -->
+
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NOWSAIGON</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">-10%</span>
+                                            <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <!-- <div class="home-product-item__img" style="background-image: url();"></div> -->
+                                        <img src="./assets/img/jacket.jpg" alt="" class="home-product-item__img">
+                                        <h4 class="home-product-item__name ">I&O Jacket</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">535.000đ</span>
+                                            <span class="home-product-item__price-current">499.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <!-- <span class="home-product-item__sold">1000 đã bán</span> -->
+
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NOWSAIGON</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">-6%</span>
+                                            <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <!-- <div class="home-product-item__img" style="background-image: url();"></div> -->
+                                        <img src="./assets/img/cargo-pants-tan-1.jpg" alt="" class="home-product-item__img">
+                                        <h4 class="home-product-item__name">CARGO PANTS - TAN</h4>
+                                        <div class="home-product-item__price">
+                                            <!-- <span class="home-product-item__price-old">495.000đ</span> -->
+                                            <span class="home-product-item__price-current">350.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <!-- <span class="home-product-item__sold">1000 đã bán</span> -->
+
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NOWSAIGON</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <!-- <div class="home-product-item__sale-off"> -->
+                                            <!-- <span class="home-product-item__sale-off-percent">-22%</span> -->
+                                            <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                            
+                                        <!-- </div> -->
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <!-- <div class="home-product-item__img" style="background-image: url();"></div> -->
+                                        <img src="./assets/img/fur.jpg" alt="" class="home-product-item__img">
+                                        <h4 class="home-product-item__name">FUR SWEATER</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">480.000đ</span>
+                                            <span class="home-product-item__price-current">288.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <!-- <span class="home-product-item__sold">1000 đã bán</span> -->
+
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NOWSAIGON</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">-40%</span>
+                                            <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <!-- <div class="home-product-item__img" style="background-image: url();"></div> -->
+                                        <img src="./assets/img/ICE.jpg" alt="" class="home-product-item__img">
+                                        <h4 class="home-product-item__name">ICE LOGO HOODIE</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">580.000đ</span>
+                                            <span class="home-product-item__price-current">348.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                            </div>
+                                            <!-- <span class="home-product-item__sold">1000 đã bán</span> -->
+
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NOWSAIGON</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class=" home-product-item__sale-off-percent-sold-out">SOLD OUT</span>
+                                            <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <!-- <div class="home-product-item__img" style="background-image: url();"></div> -->
+                                        <img src="./assets/img/BACK.jpg" alt="" class="home-product-item__img">
+                                        <h4 class="home-product-item__name">ESSEN BACKPACK</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">595.000đ</span>
+                                            <span class="home-product-item__price-current">565.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+
+                                            </div>
+                                            <!-- <span class="home-product-item__sold">1000 đã bán</span> -->
+
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NOWSAIGON</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">-5%</span>
+                                            <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <!-- <div class="home-product-item__img" style="background-image: url();"></div> -->
+                                        <img src="./assets/img/cpn-blue-sau.jpg" alt="" class="home-product-item__img">
+                                        <h4 class="home-product-item__name">CPN TEE</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">333.000đ</span>
+                                            <span class="home-product-item__price-current">299.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+
+                                            </div>
+                                            <!-- <span class="home-product-item__sold">1000 đã bán</span> -->
+
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NOWSAIGON</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">-10%</span>
+                                            <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="#">
+                                        <!-- <div class="home-product-item__img" style="background-image: url();"></div> -->
+                                        <img src="./assets/img/ocean-jacket-sau.jpg" alt="" class="home-product-item__img">
+                                        <h4 class="home-product-item__name">OCEAN JACKET</h4>
+                                        <div class="home-product-item__price">
+                                            <!-- <span class="home-product-item__price-old">495.000đ</span> -->
+                                            <span class="home-product-item__price-current">580.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+
+                                            </div>
+                                            <!-- <span class="home-product-item__sold">1000 đã bán</span> -->
+
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">NOWSAIGON</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <!-- SALE OFF -->
+                                        <!-- <div class="home-product-item__sale-off"> -->
+                                            <!-- <span class="home-product-item__sale-off-percent">-22%</span> -->
+                                            <!-- <span class="home-product-item__sale-off-label">GIẢM</span> -->
+                                            
+                                        <!-- </div> -->
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <!--Modal layout--> 
+
+        <!-- <div class="modal">
+        <div class="modal__overlay"> </div>
+
+       
+        <div class="modal__body">  -->
+            <!--Register form-->
+            
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading"> Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div> 
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đồng ý với Now về 
+                            <a href="" class="auth-form__text-link">terms of service</a> & 
+                            <a href="" class="auth-form__text-link">privacy policy</a>
+
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__controls-back " > TRỞ LẠI</button>
+                        <button class="btn btn--primary "> ĐĂNG KÝ</button> 
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                       <span class="auth-form__socials-title">
+                           Kết nối với Facebook
+                       </span>
+                    </a>
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div>       -->
+            
+            
+            <!--Login form-->
+            
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading"> Đăng nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span>
+                    </div> 
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+                        </div>
+                        
+                    </div>
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-for">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate"> </span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__controls-back " > TRỞ LẠI</button>
+                        <button class="btn btn--primary "> ĐĂNG NHẬP</button> 
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                       <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                       </span>
+                    </a>
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">
+                                Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div>   
+        </div>
+    </div>  -->
+</body>
+</html>
